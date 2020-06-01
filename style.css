@@ -1,0 +1,65 @@
+
+body{
+    background-color:   #f7f7f7;
+    margin: 0 auto;
+    /* height: auto; */
+    font: 15px/1.5 Arial, Helvetica, sans-serif;
+    
+    text-align: center;
+  }
+  
+  
+  * {
+      box-sizing: border-box;
+  } 
+
+
+
+
+
+hr{
+    background-color: #1a202c ;
+    height: 20px; 
+    display: block;
+}
+
+#youtubers{
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #202040;
+
+}
+
+
+#youtube-channels{
+    height: 300px;
+    padding: 20px 60px;
+   display: flex;
+    
+}
+
+
+#youtube-channels a{
+    text-decoration: none;
+    color: #1a202c;
+}
+
+#youtube-channels a:hover{
+    color: #888888;
+    font-size: 16px;
+}
+
+
+
+.section-head{
+    background: #f6e05e;
+    width: 75%;
+    font-size: large;
+    border-radius: 15px;
+     text-transform: uppercase;
+     letter-spacing: .025em;
+     font-weight: 600;
+     margin-top: 45px;
+     /* height: 30px; */
+     
+}
