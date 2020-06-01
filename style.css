@@ -1,0 +1,40 @@
+body{
+    font-family: "Tahoma", sans-serif;
+    text-align: center;
+    color: #fff;
+}
+
+
+.col{
+    width: 100%;
+    padding: 35px;
+    box-sizing: border-box;
+
+}
+
+.card-1{
+    
+    float: left;
+    background: #f7f7f7;
+    color:#888888;
+    margin: 0;
+    padding: 0;
+    border: 1px solid #555;
+    list-style-type: none;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    height: 350px;
+
+    /* https://developer.mozilla.org/en-US/docs/Web/CSS/transition */
+    transition: .3s;
+}
+
+figcaption{
+    margin-bottom:  10px;
+    font-size: large;
+    text-transform: uppercase;
+}
+
+.card-1:hover{
+    box-shadow: 0 10px 15px 0 #888888;
+}
